@@ -1,0 +1,405 @@
+body {
+  display: flex;
+  flex-direction: column; /* Organiza o layout em coluna */
+  height: 100%; /* Faz com que o body ocupe 100% da altura da tela */
+}
+main {
+  flex-grow: 1; /* O conteúdo principal vai crescer e ocupar o espaço restante */
+}
+ul {
+  align-items: center;
+  align-content: center;
+  box-align: center;
+  margin-left: 187px;
+}
+li {
+  list-style: none;
+  padding: 19px;
+  display: inline-block;
+  align-content: center;
+  align-items: center;
+  align-content: center;
+  box-align: center;
+}
+header {
+  background-color: #5271ff; /* Exemplo de cor para o header */
+  height: 230px; /* Defina a altura do header */
+  width: 100%; /* Ocupa toda a largura da tela */
+  margin: 0;
+  padding: 0;
+  margin-top: auto;
+  border-radius: 12px;
+}
+.logo {
+  background: url("logo.png");
+  background-size: cover;
+  background-position: center;
+  width: 190px;
+  height: 190px;
+  position: relative;
+  top: 35px; /* Aumente o valor para mover para baixo */
+  padding-top: -30px;
+  margin-left: auto; /* Centraliza à esquerda */
+  margin-right: auto; /* Centraliza à direita */
+  display: block;
+  margin: 0 auto;
+}
+.imagem1click {
+  width: 800px;
+  height: 500px;
+}
+.imagem4click {
+  width: 800px;
+  height: 500px;
+}
+.n1 {
+  background: url("jogodopalsao.png.webp");
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 500px;
+  color: rgb(253, 253, 253);
+  font-size: 45px;
+  background-color: #3498db;
+  transition: all 0.3s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  margin-bottom: -55px;
+  position: relative;
+  justify-content: center;
+  margin-left: auto; /* Centraliza à esquerda */
+  margin-right: auto; /* Centraliza à direita */
+}
+.n2 {
+  background: url("realmadridxatletic.png");
+  background-size: cover;
+  background-position: center;
+  font-size: 15px;
+  width: 700px;
+  height: 400px;
+  margin-left: -41%;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  position: relative;
+  justify-content: center;
+}
+.n3 {
+  background: url("ronaldonazario.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 15px;
+  width: 700px;
+  height: 400px;
+  margin-left: -30%;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  position: relative;
+  justify-content: center;
+}
+.n4 {
+  background: url("corinthiansxbarcelona.png");
+  background-size: cover;
+  background-position: center;
+  width: 800px;
+  height: 500px;
+  color: rgb(253, 253, 253);
+  font-size: 45px;
+  background-color: #3498db;
+  transition: all 0.3s ease-in-out;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-bottom: -55px;
+  position: relative;
+  margin-left: auto; /* Centraliza à esquerda */
+  margin-right: auto; /* Centraliza à direita */
+}
+.n5 {
+  background: url("flaxflu.png");
+  background-size: cover;
+  background-position: center;
+  font-size: 15px;
+  width: 700px;
+  height: 400px;
+  margin-left: -41%;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  position: relative;
+  justify-content: center;
+}
+.n6 {
+  background: url("chaveamentoquartaschampions.png");
+  background-size: cover;
+  background-position: center;
+  font-size: 15px;
+  width: 700px;
+  height: 400px;
+  margin-left: -30%;
+  transition: all 0.3s ease-in-out;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  position: relative;
+  justify-content: center;
+}
+.n1:hover,
+.n2:hover,
+.n3:hover,
+.n4:hover,
+.n5:hover,
+.n6:hover {
+  transform: scale(1.1);
+  background-color: #000000;
+  font-size: 45px;
+}
+.n1 p,
+.n2 p,
+.n3 p,
+.n4 p,
+.n5 p,
+.n6 p {
+  font-size: 35px;
+  text-align: center;
+  color: rgb(253, 253, 253);
+  text-shadow: black 0.1em 0.1em 0.2em;
+  position: absolute;
+  bottom: -20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para {
+  color: #d0dcdc;
+}
+.patro {
+  background: url("BIGBET.png");
+  background-size: cover;
+  background-position: left;
+  width: 400px;
+  height: 120px;
+  color: rgb(253, 253, 253);
+  font-size: 45px;
+  background-color: #3498db;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+  justify-content: center;
+  border-radius: 20px;
+}
+.l1 {
+  background: url(palmeiras-x-sao-paulo.jpg);
+  background-size: cover;
+  background-position: center;
+  font-size: 15px;
+  width: 700px;
+  height: 400px;
+}
+.centraliza {
+  margin-left: 530px;
+}
+.centraliza1 {
+  margin-left: 200px;
+}
+.n1 a {
+  text-decoration: none;
+}
+.centraliza {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.patro2 {
+  display: inline-block;
+  height: 150px;
+  width: 350px;
+  background: url("maxlogo.png");
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+footer {
+  background-color: #5271ff; /* Exemplo de cor para o footer */
+  height: 400px; /* Defina a altura do footer */
+  width: 100%; /* Ocupa toda a largura da tela */
+  margin: 0;
+  padding: 2%;
+  box-sizing: border-box; /* Considera padding e borda no cálculo */
+  border-radius: 12px;
+  margin-top: auto;
+}
+footer p {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+  padding-top: 1px;
+  padding-left: 0vh;
+  text-align: center; /* Centraliza horizontalmente */
+}
+.instagramimg {
+  background: url(instagram.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 1045px;
+  background-position: center;
+}
+.instagramimg:hover {
+  transform: scale(1.2);
+  background-color: #000000;
+  font-size: 45px;
+}
+.youtubeimg {
+  background: url(youtube.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 895px;
+  background-position: center;
+}
+.youtubeimg:hover {
+  transform: scale(1.2);
+  background-color: #000000;
+  font-size: 45px;
+}
+.twitterimg {
+  background: url(twitter.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 745px;
+  background-position: center;
+}
+.twitterimg:hover {
+  transform: scale(1.2);
+  background-color: #000000;
+  font-size: 45px;
+}
+.textofooter {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  margin-top: 250px;
+  margin-left: 1660px;
+  color: white;
+}
+.copyright {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  margin-right: 1585px;
+  margin-top: -30px;
+  color: white;
+}
+.dropdown {
+  position: absolute;
+  top: 50px; /* Ajusta a posição do dropdown */
+  left: 80px; /* Alinha à direita */
+}
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 55px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 150px;
+}
+.dropdown-menu a {
+  display: block;
+  padding: 30px;
+  text-decoration: none;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+.dark-mode-button {
+  /* Botão Dark Mode */
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 50px;
+}
+.dark-mode {
+  /*cor do dark e light mode*/
+  background-color: #222222;
+  color: #ffffff;
+}
+.section-videos {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section-videos h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+  border-left: 6px solid #e30613;
+  padding-left: 10px;
+}
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+.video-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.video-card:hover {
+  transform: scale(1.02);
+}
+.video-card iframe {
+  width: 100%;
+  height: 180px;
+  border: none;
+}
+.video-info {
+  padding: 10px 15px;
+}
+.video-info h4 {
+  font-size: 16px;
+  margin: 0;
+  color: #333;
+}
+.video-info span {
+  font-size: 12px;
+  color: #777;
+}
+.section-videos h2 {
+  color: #5271ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.video-card {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.patro3 {
+  display: inline-block;
+  height: 90px;
+  width: 450px;
+  background: url("centauro.png");
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-size: cover;
+}
+.patro4 {
+  display: inline-block;
+  height: 90px;
+  width: 90px;
+  background: url("bet365.png");
+  border-radius: 15px;
+  background-size: cover;
+  top: 100px;
+}
